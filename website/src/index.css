@@ -1,0 +1,50 @@
+:root {
+  --black: #171717;
+  --main-background: #0c0c0c;
+  --light-gray: #f1efed;
+  --light-gray-variant: #ececec;
+  --white: white;
+  --transition: all 0.3s linear;
+  --max-width: var(--max-width);
+}
+
+*,
+*::before,
+*::after {
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-background);
+  color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.9rem;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+main {
+  margin-top: 6.25rem;
+}
+
+section {
+  height: 100vh;
+}

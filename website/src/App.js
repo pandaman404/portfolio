@@ -1,7 +1,15 @@
 import React from "react";
+import { Header, About } from "./layout";
 
 function App() {
-  return <h1>jio</h1>;
+  return (
+    <>
+      <Header />
+      <main>
+        <About />
+      </main>
+    </>
+  );
 }
 
 export default App;
