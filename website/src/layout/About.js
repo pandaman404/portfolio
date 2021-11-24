@@ -39,8 +39,8 @@ const About = () => {
 };
 
 const Wrapper = styled.section`
-  min-height: 84vh;
   padding: 10rem 2rem 4rem 2rem;
+  height: 90vh;
 
   .container {
     display: grid;
@@ -97,7 +97,7 @@ const Wrapper = styled.section`
   @media (min-width: 640px) and (max-width: 991px) {
     .button,
     ul {
-      max-width: 40rem;
+      max-width: 30rem;
       justify-self: center;
     }
   }
@@ -124,12 +124,12 @@ const Wrapper = styled.section`
     }
 
     ul {
-      width: 100%;
+      width: 85%;
     }
 
     .button {
-      width: 90%;
       padding: 1.2rem 2rem;
+      max-width: 30rem;
     }
   }
 `;

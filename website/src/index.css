@@ -1,10 +1,12 @@
 :root {
   --black: #171717;
   --main-background: #0c0c0c;
+  --alt-background: #070707;
   --primary-color: #00fe60;
   --light-gray: #f1efed;
   --light-gray-variant: #ececec;
   --white: white;
+  --gray: rgb(19, 19, 19);
   --transition: all 0.2s linear;
   --max-width: 75rem;
 }
@@ -40,11 +42,19 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
 a {
   text-decoration: none;
   color: inherit;
-  font-size: 0.9rem;
   transition: var(--transition);
+}
+
+p,
+a {
+  font-size: 0.9rem;
 }
 
 a:hover {
@@ -57,6 +67,10 @@ ul {
 
 li {
   list-style: none;
+}
+
+section {
+  min-height: 100vh;
 }
 
 .container {
@@ -87,5 +101,10 @@ li {
   h1 {
     font-size: 4rem;
     text-align: left;
+  }
+
+  p,
+  a {
+    font-size: 1rem;
   }
 }

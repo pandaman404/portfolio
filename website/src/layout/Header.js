@@ -21,7 +21,7 @@ const Header = () => {
 };
 
 const Wrapper = styled.header`
-  z-index: 1;
+  z-index: 2;
   padding: 2rem;
   height: 16vh;
   width: 100%;
@@ -45,6 +45,10 @@ const Wrapper = styled.header`
     display: none;
   }
 
+  a {
+    font-size: 0.9rem;
+  }
+
   .hamburger {
     color: var(--white);
     background: none;
@@ -58,7 +62,7 @@ const Wrapper = styled.header`
 
     .menu {
       display: flex;
-      gap: 1.5rem;
+      gap: 2rem;
     }
   }
 `;
