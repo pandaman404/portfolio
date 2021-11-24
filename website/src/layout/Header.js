@@ -11,9 +11,9 @@ const Header = () => {
           <FaBars />
         </button>
         <nav className="menu">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+          <a href="#about">Sobre Mi</a>
+          <a href="#projects">Proyectos</a>
+          <a href="#contact">Contacto</a>
         </nav>
       </div>
     </Wrapper>
@@ -21,14 +21,16 @@ const Header = () => {
 };
 
 const Wrapper = styled.header`
+  z-index: 1;
   padding: 2rem;
-  height: 6.25rem;
+  height: 16vh;
   width: 100%;
   position: fixed;
   top: 0;
   background-color: var(--main-background);
 
   .container {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,7 +49,6 @@ const Wrapper = styled.header`
     color: var(--white);
     background: none;
     border: none;
-    padding-top: 4px;
   }
 
   @media (min-width: 62rem) {
