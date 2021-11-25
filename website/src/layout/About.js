@@ -39,8 +39,8 @@ const About = () => {
 };
 
 const Wrapper = styled.section`
-  padding: 10rem 2rem 4rem 2rem;
-  height: 90vh;
+  padding: 10rem 2rem 8rem 2rem;
+  min-height: 90vh;
 
   .container {
     display: grid;
