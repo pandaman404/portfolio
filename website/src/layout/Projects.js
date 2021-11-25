@@ -50,10 +50,7 @@ const Projects = () => {
       </div>
       <div className="container freelance-projects">
         <h2>Freelance</h2>
-        <p>
-          Algunos proyectos relevantes en los que he participado el ultimo
-          tiempo.
-        </p>
+        <p>Proyectos relevantes en los que he participado el ultimo tiempo.</p>
         <div className="projects-container">
           {freelanceProjects.map((project, index) => {
             const { name, image, url, tags } = project;

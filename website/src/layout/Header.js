@@ -12,8 +12,8 @@ const Header = () => {
         </button>
         <nav className="menu">
           <a href="#about">Sobre Mi</a>
+          <a href="#stack">Stack</a>
           <a href="#projects">Proyectos</a>
-          <a href="#contact">Contacto</a>
         </nav>
       </div>
     </Wrapper>
