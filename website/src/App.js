@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, About, Projects } from "./layout";
+import { Header, About, Projects, Footer } from "./layout";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
         <About />
         <Projects />
       </main>
+      <Footer />
     </>
   );
 }

@@ -87,11 +87,15 @@ const Projects = () => {
 
 const Wrapper = styled.section`
   text-align: center;
-  padding: 10rem 2rem;
+  padding: 10rem 2rem 15rem 2rem;
   background-color: var(--alt-background);
   display: flex;
   flex-flow: column;
   gap: 10rem;
+
+  h2 {
+    color: var(--primary-color);
+  }
 
   p a {
     color: var(--primary-color);
@@ -139,7 +143,7 @@ const Wrapper = styled.section`
     left: 0;
     position: absolute;
     z-index: 0;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     height: 100%;
     width: 100%;
     border-radius: 0.5rem;
