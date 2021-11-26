@@ -28,6 +28,8 @@ const Projects = () => {
                   backgroundImage: `url(${image})`,
                 }}
                 key={index}
+                data-aos="fade-up"
+                data-aos-delay={`${index + 1}00`}
               >
                 <h3>{name}</h3>
                 <div className="card-links">
@@ -61,6 +63,8 @@ const Projects = () => {
                   backgroundImage: `url(${image})`,
                 }}
                 key={index}
+                data-aos="fade-up"
+                data-aos-delay={`${freelanceProjects.length - index}00`}
               >
                 <h3>{name}</h3>
                 <div className="card-links">

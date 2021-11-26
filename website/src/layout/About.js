@@ -9,30 +9,35 @@ const About = () => {
   return (
     <Wrapper id="about">
       <div className="container">
-        <h1>
+        <h1 data-aos="fade-up" data-aos-delay="200">
           Hola, soy <span className="underline">Rodrigo</span>.
         </h1>
         <ul>
-          <li>
+          <li data-aos="fade-right" data-aos-delay="300">
             <FaUserGraduate className="li-icon" />
             Egresado de Ingenieria Civil Informatica en la Universidad San
             Sebastián de Chile.
           </li>
-          <li>
+          <li data-aos="fade-right" data-aos-delay="400">
             <FaCode className="li-icon" />
             Solidos Conocimientos en HTML, CSS y JavaScript.
           </li>
-          <li>
+          <li data-aos="fade-right" data-aos-delay="500">
             <GoRocket className="li-icon" />
             Interesado en formar parte de una empresa en la que pueda
             constribuir con mis conocimientos y consolidarme como desarrollador.
           </li>
         </ul>
-        <button className="button">
+        <button className="button" data-aos="fade-up" data-aos-delay="400">
           Descargar CV
           <BiDownload className="btn-icon" />
         </button>
-        <img src={coderImage} alt="developer" className="dev-image" />
+        <img
+          src={coderImage}
+          alt="developer"
+          className="dev-image"
+          data-aos="zoom-in-left"
+        />
       </div>
     </Wrapper>
   );

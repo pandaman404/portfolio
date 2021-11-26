@@ -7,7 +7,6 @@ const MobileMenu = () => {
   const [mobileNavbar, setMobileNavbar] = useState(false);
 
   const showMobileNavbar = () => {
-    console.log(mobileNavbar);
     setMobileNavbar(!mobileNavbar);
     if (!mobileNavbar) {
       document.body.style.overflow = "hidden";

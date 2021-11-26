@@ -11,7 +11,7 @@ const Stack = () => {
     <Wrapper id="stack">
       <div className="container">
         <h2>Stack</h2>
-        <div className="stack-icons">
+        <div className="stack-icons" data-aos="fade-up" data-aos-delay="200">
           <FaHtml5 title="Html5" />
           <FaCss3 title="Css3" />
           <FaSass title="Sass" />
