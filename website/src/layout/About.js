@@ -28,7 +28,7 @@ const About = () => {
             constribuir con mis conocimientos y consolidarme como desarrollador.
           </li>
         </ul>
-        <button className="button" data-aos="fade-up" data-aos-delay="400">
+        <button className="button" data-aos="fade-up">
           Descargar CV
           <BiDownload className="btn-icon" />
         </button>
@@ -44,7 +44,8 @@ const About = () => {
 };
 
 const Wrapper = styled.section`
-  padding: 10rem 2rem 8rem 2rem;
+  margin-top: 8rem;
+  padding: 2rem 2rem 8rem 2rem;
   min-height: 90vh;
 
   .container {
