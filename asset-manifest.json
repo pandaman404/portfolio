@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.91b33a59.chunk.css",
-    "main.js": "/portfolio/static/js/main.523cd797.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.523cd797.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.c05dcabb.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c05dcabb.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.4c035d7c.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.4c035d7c.js.map",
     "static/css/2.e6747c62.chunk.css": "/portfolio/static/css/2.e6747c62.chunk.css",
@@ -16,6 +16,7 @@
     "static/media/code.cc4bf686.jpg": "/portfolio/static/media/code.cc4bf686.jpg",
     "static/media/coder2.92b132eb.svg": "/portfolio/static/media/coder2.92b132eb.svg",
     "static/media/office.037bc273.jpg": "/portfolio/static/media/office.037bc273.jpg",
+    "static/media/rodrigo_valenzuela_cv.dfb04b64.pdf": "/portfolio/static/media/rodrigo_valenzuela_cv.dfb04b64.pdf",
     "static/media/truck.146ac8f2.jpg": "/portfolio/static/media/truck.146ac8f2.jpg"
   },
   "entrypoints": [
@@ -23,6 +24,6 @@
     "static/css/2.e6747c62.chunk.css",
     "static/js/2.9ae693b9.chunk.js",
     "static/css/main.91b33a59.chunk.css",
-    "static/js/main.523cd797.chunk.js"
+    "static/js/main.c05dcabb.chunk.js"
   ]
 }
