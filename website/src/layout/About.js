@@ -45,8 +45,7 @@ const About = () => {
 };
 
 const Wrapper = styled.section`
-  margin-top: 10rem;
-  padding: 0rem 2rem 8rem 2rem;
+  padding: 12rem 2rem 8rem 2rem;
   min-height: 90vh;
 
   .container {
