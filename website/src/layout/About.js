@@ -4,6 +4,7 @@ import { FaCode, FaUserGraduate } from "react-icons/fa";
 import { GoRocket } from "react-icons/go";
 import { BiDownload } from "react-icons/bi";
 import coderImage from "../assets/coder2.svg";
+import cv from "../assets/rodrigo_valenzuela_cv.pdf";
 
 const About = () => {
   return (
@@ -28,10 +29,10 @@ const About = () => {
             constribuir con mis conocimientos y consolidarme como desarrollador.
           </li>
         </ul>
-        <button className="button" data-aos="fade-up">
+        <a className="button" href={cv} download>
           Descargar CV
           <BiDownload className="btn-icon" />
-        </button>
+        </a>
         <img
           src={coderImage}
           alt="developer"
