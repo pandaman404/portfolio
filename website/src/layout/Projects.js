@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { frontendMentorProjects, freelanceProjects } from "../data";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import ProjectCard from "../components/ProjectCard";
 
 const Projects = () => {
   return (
@@ -20,33 +20,7 @@ const Projects = () => {
         </p>
         <div className="projects-container">
           {frontendMentorProjects.map((project, index) => {
-            const { name, image, repo, url, tags } = project;
-            return (
-              <div
-                className="card"
-                style={{
-                  backgroundImage: `url(${image})`,
-                }}
-                key={index}
-                data-aos="fade-up"
-                data-aos-delay={`${index + 1}00`}
-              >
-                <h3>{name}</h3>
-                <div className="card-links">
-                  <a href={repo} target="_blank" rel="noopener noreferrer">
-                    <FaGithub />
-                  </a>
-                  <a href={url} target="_blank" rel="noopener noreferrer">
-                    <FaExternalLinkAlt />
-                  </a>
-                </div>
-                <div className="card-tags">
-                  {tags.map((tag, index) => {
-                    return <span key={index}>{tag}</span>;
-                  })}
-                </div>
-              </div>
-            );
+            return <ProjectCard key={index} index={index} {...project} />;
           })}
         </div>
       </div>
@@ -55,29 +29,13 @@ const Projects = () => {
         <p>Proyectos relevantes en los que he participado el ultimo tiempo.</p>
         <div className="projects-container">
           {freelanceProjects.map((project, index) => {
-            const { name, image, url, tags } = project;
             return (
-              <div
-                className="card"
-                style={{
-                  backgroundImage: `url(${image})`,
-                }}
+              <ProjectCard
                 key={index}
-                data-aos="fade-up"
-                data-aos-delay={`${freelanceProjects.length - index}00`}
-              >
-                <h3>{name}</h3>
-                <div className="card-links">
-                  <a href={url} target="_blank" rel="noopener noreferrer">
-                    <FaExternalLinkAlt />
-                  </a>
-                </div>
-                <div className="card-tags">
-                  {tags.map((tag, index) => {
-                    return <span key={index}>{tag}</span>;
-                  })}
-                </div>
-              </div>
+                index={index}
+                {...project}
+                length={freelanceProjects.length}
+              />
             );
           })}
         </div>
@@ -114,7 +72,7 @@ const Wrapper = styled.section`
     max-width: 800px;
     margin: auto;
   }
-
+  /* 
   .card {
     height: 20rem;
     border: 1px solid var(--white);
@@ -181,7 +139,7 @@ const Wrapper = styled.section`
 
   .card-tags span {
     font-size: 0.75rem;
-  }
+  } */
 
   @media (min-width: 992px) {
     .projects-container {
@@ -189,10 +147,10 @@ const Wrapper = styled.section`
       flex-flow: row;
     }
 
-    .card {
+    /* .card {
       flex: 1;
       height: 15rem;
-    }
+    } */
   }
 `;
 

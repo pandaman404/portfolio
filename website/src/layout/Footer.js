@@ -70,11 +70,11 @@ const Wrapper = styled.footer`
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
-  }
 
-  .links a {
-    color: var(--main-background);
-    font-size: 2.5rem;
+    a {
+      color: var(--main-background);
+      font-size: 2.5rem;
+    }
   }
 
   span {

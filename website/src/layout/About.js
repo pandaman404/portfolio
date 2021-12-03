@@ -60,24 +60,19 @@ const Wrapper = styled.section`
 
   li {
     font-size: 0.8rem;
-  }
 
-  li:not(:last-child) {
-    margin-bottom: 1rem;
-  }
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
 
-  .li-icon {
-    font-size: 1.2rem;
-    position: relative;
-    top: 0.2rem;
-    left: -0.5rem;
-    color: var(--primary-color);
+    .li-icon {
+      font-size: 1.2rem;
+      position: relative;
+      top: 0.2rem;
+      left: -0.5rem;
+      color: var(--primary-color);
+    }
   }
-
-  .btn-icon {
-    font-size: 1.3rem;
-  }
-
   .button {
     padding: 1rem 2rem;
     max-height: 4rem;
@@ -86,6 +81,10 @@ const Wrapper = styled.section`
     display: flex;
     justify-content: center;
     gap: 0.5rem;
+
+    .btn-icon {
+      font-size: 1.3rem;
+    }
   }
 
   .underline {
@@ -125,12 +124,12 @@ const Wrapper = styled.section`
       box-shadow: inset 0 -0.8rem 0 var(--primary-color);
     }
 
-    li {
-      font-size: 0.9rem;
-    }
-
     ul {
       width: 85%;
+
+      li {
+        font-size: 0.9rem;
+      }
     }
 
     .button {

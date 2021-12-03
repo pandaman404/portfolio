@@ -1,7 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 import codeImage from "../assets/code.jpg";
-import { FaHtml5, FaCss3, FaSass, FaReact, FaDocker } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaCss3,
+  FaSass,
+  FaReact,
+  FaAngular,
+  FaDocker,
+} from "react-icons/fa";
 import { GrNode } from "react-icons/gr";
 import { SiJavascript, SiMongodb } from "react-icons/si";
 import { BiGitBranch } from "react-icons/bi";
@@ -18,6 +25,7 @@ const Stack = () => {
           <SiJavascript title="JavaScript" />
           <GrNode title="Node.js" />
           <FaReact title="React" />
+          <FaAngular title="React" />
           <SiMongodb title="MongoDB" />
           <BiGitBranch title="Git" />
           <FaDocker title="Docker" />

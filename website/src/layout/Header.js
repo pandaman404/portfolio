@@ -41,10 +41,10 @@ const Wrapper = styled.header`
 
   .menu {
     display: none;
-  }
 
-  a {
-    font-size: 0.9rem;
+    a {
+      font-size: 0.9rem;
+    }
   }
 
   @media (min-width: 62rem) {
