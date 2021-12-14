@@ -1,26 +1,20 @@
-import React, { useEffect } from "react";
-import { Header, About, Stack, Projects, Footer } from "./layout";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from 'react';
+import 'aos/dist/aos.css';
+import { Header, About, Stack, Projects, Footer } from './layout';
+import { GlobalProvider } from './contexts/globalContext';
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    });
-  }, []);
-
-  return (
-    <>
-      <Header />
-      <main>
-        <About />
-        <Stack />
-        <Projects />
-      </main>
-      <Footer />
-    </>
-  );
+	return (
+		<GlobalProvider>
+			<Header />
+			<main>
+				<About />
+				<Stack />
+				<Projects />
+			</main>
+			<Footer />
+		</GlobalProvider>
+	);
 }
 
 export default App;
