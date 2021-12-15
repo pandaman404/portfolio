@@ -6,9 +6,9 @@ exports[`Tests in <Navbar /> should render <Navbar />  1`] = `
 >
   <Link
     activeClass="active"
-    duration={500}
+    duration={200}
     key="0"
-    offset={0}
+    offset={-50}
     smooth={true}
     spy={true}
     to="about"
@@ -17,9 +17,9 @@ exports[`Tests in <Navbar /> should render <Navbar />  1`] = `
   </Link>
   <Link
     activeClass="active"
-    duration={500}
+    duration={200}
     key="1"
-    offset={0}
+    offset={-50}
     smooth={true}
     spy={true}
     to="stack"
@@ -28,9 +28,9 @@ exports[`Tests in <Navbar /> should render <Navbar />  1`] = `
   </Link>
   <Link
     activeClass="active"
-    duration={500}
+    duration={200}
     key="2"
-    offset={0}
+    offset={-50}
     smooth={true}
     spy={true}
     to="projects"
