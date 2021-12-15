@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styled from 'styled-components';
 import { MdClose } from 'react-icons/md';
 import { VscThreeBars } from 'react-icons/vsc';
-import { useGlobalContext } from '../contexts/globalContext';
+import { GlobalContext } from '../contexts/globalContext';
 
 const Hamburger = () => {
-	const { mobileNavIsOpen, showMobileNav } = useGlobalContext();
+	const { mobileNavIsOpen, showMobileNav } = useContext(GlobalContext);
 
 	return (
 		<Wrapper onClick={showMobileNav} className='hamburger'>

@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
 import { links } from '../data/links';
-import { useGlobalContext } from '../contexts/globalContext';
+import { GlobalContext } from '../contexts/globalContext';
 
 const MobileNavbar = () => {
-	const { mobileNavIsOpen, showMobileNav } = useGlobalContext();
+	const { mobileNavIsOpen, showMobileNav } = useContext(GlobalContext);
 
 	return (
 		<Wrapper className={`${mobileNavIsOpen ? 'show' : 'hide'}`}>

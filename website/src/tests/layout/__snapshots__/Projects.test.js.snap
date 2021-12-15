@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <Projects /> should render <Projects />  1`] = `
+<styled.section
+  id="projects"
+>
+  <ProjectsGrid
+    fadeUp="default"
+    projects={
+      Array [
+        Object {
+          "image": "https://raw.githubusercontent.com/pandaman404/rest-countries-api/main/design/desktop-preview.jpg",
+          "name": "Fetch Countries App",
+          "repo": "https://github.com/pandaman404/rest-countries-api",
+          "tags": Array [
+            "React",
+            "Fetch API",
+            "Dark Mode",
+            "Sass",
+          ],
+          "url": "https://pandaman404.github.io/rest-countries-api/",
+        },
+        Object {
+          "image": "https://raw.githubusercontent.com/pandaman404/ip-address-tracker/master/design/desktop-preview.jpg",
+          "name": "IP Address Tracker",
+          "repo": "https://github.com/pandaman404/ip-address-tracker",
+          "tags": Array [
+            "React",
+            "Fetch API",
+            " LeafletJS",
+            "Sass",
+          ],
+          "url": "https://pandaman404.github.io/ip-address-tracker/",
+        },
+        Object {
+          "image": "https://raw.githubusercontent.com/pandaman404/todo-app/master/design/desktop-preview.jpg",
+          "name": "Todo App",
+          "repo": "https://github.com/pandaman404/todo-app",
+          "tags": Array [
+            "JavaScript",
+            "LocalStorage",
+            "Dark Mode",
+            "Sass",
+          ],
+          "url": "https://pandaman404.github.io/todo-app/",
+        },
+      ]
+    }
+    subtitle="Algunos de los proyectos en los que he trabajado recientemente."
+    title="Frontend Mentor"
+  />
+  <ProjectsGrid
+    fadeUp="reverse"
+    projects={
+      Array [
+        Object {
+          "image": "truck.jpg",
+          "name": "DMF Express Website",
+          "tags": Array [
+            "WordPress",
+            "JavaScript",
+            "SEO",
+          ],
+          "url": "https://dmfexpress.cl/",
+        },
+        Object {
+          "image": "office.jpg",
+          "name": "Mofisillas E-commerce",
+          "tags": Array [
+            "WordPress",
+            "WooCommerce",
+            "SEO",
+          ],
+          "url": "https://mofisillas.cl/",
+        },
+        Object {
+          "image": "accountant.jpg",
+          "name": "Ibis Asesores Landing Page",
+          "tags": Array [
+            "WordPress",
+            "CSS",
+            "SEO",
+          ],
+          "url": "https://ibis-asesores.cl/",
+        },
+      ]
+    }
+    subtitle="Proyectos relevantes en los que he participado el ultimo tiempo."
+    title="Freelance"
+  />
+</styled.section>
+`;

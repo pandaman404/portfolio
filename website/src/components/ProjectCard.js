@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const ProjectCard = ({
@@ -39,6 +40,17 @@ const ProjectCard = ({
 			</div>
 		</Wrapper>
 	);
+};
+
+ProjectCard.propTypes = {
+	name: PropTypes.string.isRequired,
+	image: PropTypes.string.isRequired,
+	url: PropTypes.string.isRequired,
+	tags: PropTypes.array.isRequired,
+	repo: PropTypes.string,
+	index: PropTypes.number.isRequired,
+	length: PropTypes.number.isRequired,
+	fadeUp: PropTypes.string.isRequired,
 };
 
 const Wrapper = styled.article`

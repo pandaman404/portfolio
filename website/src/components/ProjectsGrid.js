@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 import { ProjectCard } from '../components';
 
 const ProjectsGrid = ({ title, subtitle, projects, fadeUp }) => {
@@ -32,6 +33,13 @@ const ProjectsGrid = ({ title, subtitle, projects, fadeUp }) => {
 			</div>
 		</Wrapper>
 	);
+};
+
+ProjectsGrid.propTypes = {
+	title: PropTypes.string.isRequired,
+	subtitle: PropTypes.string.isRequired,
+	projects: PropTypes.array.isRequired,
+	fadeUp: PropTypes.string.isRequired,
 };
 
 const Wrapper = styled.div`

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <Navbar /> should render <Navbar />  1`] = `
+<nav
+  className="nav-links"
+>
+  <Link
+    activeClass="active"
+    duration={500}
+    key="0"
+    offset={0}
+    smooth={true}
+    spy={true}
+    to="about"
+  >
+    Sobre Mi
+  </Link>
+  <Link
+    activeClass="active"
+    duration={500}
+    key="1"
+    offset={0}
+    smooth={true}
+    spy={true}
+    to="stack"
+  >
+    Stack
+  </Link>
+  <Link
+    activeClass="active"
+    duration={500}
+    key="2"
+    offset={0}
+    smooth={true}
+    spy={true}
+    to="projects"
+  >
+    Proyectos
+  </Link>
+</nav>
+`;

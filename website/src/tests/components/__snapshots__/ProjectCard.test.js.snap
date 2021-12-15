@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <ProjectCard /> should render <ProjectCard />  1`] = `
+<styled.article
+  data-aos="fade-up"
+  data-aos-delay="200"
+  style={
+    Object {
+      "backgroundImage": "url(https://raw.githubusercontent.com/pandaman404/rest-countries-api/main/design/desktop-preview.jpg)",
+    }
+  }
+>
+  <h3>
+    Fetch Countries App
+  </h3>
+  <div
+    className="card-links"
+  >
+    <a
+      href="https://github.com/pandaman404/rest-countries-api"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <FaGithub />
+    </a>
+    <a
+      href="https://pandaman404.github.io/rest-countries-api/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <FaExternalLinkAlt />
+    </a>
+  </div>
+  <div
+    className="card-tags"
+  >
+    <span
+      key="0"
+    >
+      React
+    </span>
+    <span
+      key="1"
+    >
+      Fetch API
+    </span>
+    <span
+      key="2"
+    >
+      Dark Mode
+    </span>
+    <span
+      key="3"
+    >
+      Sass
+    </span>
+  </div>
+</styled.article>
+`;

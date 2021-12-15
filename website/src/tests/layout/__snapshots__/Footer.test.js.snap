@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <Footer /> should render <Footer />  1`] = `
+<styled.footer>
+  <div
+    className="container"
+  >
+    <div
+      className="links"
+    >
+      <a
+        href="https://www.linkedin.com/in/rodrigo-valenzuela-466b0021a/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <FaLinkedin />
+      </a>
+      <a
+        href="https://github.com/pandaman404"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <FaGithub />
+      </a>
+      <a
+        href="https://gitlab.com/valenzuela97"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <FaGitlab />
+      </a>
+      <a
+        href="mailto:valenzuela.ahumada4@gmail.com"
+      >
+        <FaEnvelope />
+      </a>
+      <a
+        href="/#"
+      >
+        <FaTwitter />
+      </a>
+    </div>
+    <span>
+      Made with 
+      <FaHeart />
+       by Rodrigo
+    </span>
+  </div>
+</styled.footer>
+`;

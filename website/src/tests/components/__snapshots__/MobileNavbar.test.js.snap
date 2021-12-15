@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <MobileNavbar /> should render <MobileNavbar />  1`] = `
+<nav
+  className="sc-gsDKAQ kJdAZS show"
+>
+  <a
+    onClick={[Function]}
+  >
+    Sobre Mi
+  </a>
+  <a
+    onClick={[Function]}
+  >
+    Stack
+  </a>
+  <a
+    onClick={[Function]}
+  >
+    Proyectos
+  </a>
+</nav>
+`;

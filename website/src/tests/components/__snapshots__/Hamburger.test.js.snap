@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <Hamburger /> should render <Hamburger />  1`] = `
+<button
+  className="sc-bdvvtL cIJetH hamburger"
+  onClick={[MockFunction]}
+>
+  <svg
+    fill="currentColor"
+    height="1em"
+    stroke="currentColor"
+    strokeWidth="0"
+    style={
+      Object {
+        "color": undefined,
+      }
+    }
+    viewBox="0 0 16 16"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clipRule="evenodd"
+      d="M14 5H2V3h12v2zm0 4H2V7h12v2zM2 13h12v-2H2v2z"
+      fillRule="evenodd"
+      key="0"
+    />
+  </svg>
+</button>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <Header /> should render <Header />  1`] = `
+<styled.header>
+  <div
+    className="container"
+  >
+    <span
+      className="logo"
+    >
+      Rodrigo's Portfolio
+    </span>
+    <Hamburger />
+    <Navbar />
+  </div>
+  <MobileNavbar />
+</styled.header>
+`;

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <Stack /> should render <Stack />  1`] = `
+<styled.section
+  id="stack"
+>
+  <div
+    className="container"
+  >
+    <h2>
+      Stack
+    </h2>
+    <div
+      className="stack-icons"
+      data-aos="fade-up"
+      data-aos-delay="200"
+    >
+      <FaHtml5
+        title="Html5"
+      />
+      <FaCss3
+        title="Css3"
+      />
+      <FaSass
+        title="Sass"
+      />
+      <SiJavascript
+        title="JavaScript"
+      />
+      <GrNode
+        title="Node.js"
+      />
+      <FaReact
+        title="React"
+      />
+      <FaAngular
+        title="React"
+      />
+      <SiMongodb
+        title="MongoDB"
+      />
+      <BiGitBranch
+        title="Git"
+      />
+      <FaDocker
+        title="Docker"
+      />
+    </div>
+  </div>
+</styled.section>
+`;

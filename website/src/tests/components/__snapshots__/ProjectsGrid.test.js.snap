@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <ProjectsGrid /> should render <ProjectsGrid />  1`] = `
+<styled.div>
+  <h2>
+    Frontend Mentor
+  </h2>
+  <p>
+    Hola Mundo...
+     
+    <a
+      href="https://www.frontendmentor.io/profile/pandaman404"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Ver más.
+    </a>
+  </p>
+  <div
+    className="projects-container"
+  >
+    <ProjectCard
+      fadeUp="default"
+      image="https://raw.githubusercontent.com/pandaman404/rest-countries-api/main/design/desktop-preview.jpg"
+      index={0}
+      key="0"
+      length={3}
+      name="Fetch Countries App"
+      repo="https://github.com/pandaman404/rest-countries-api"
+      tags={
+        Array [
+          "React",
+          "Fetch API",
+          "Dark Mode",
+          "Sass",
+        ]
+      }
+      url="https://pandaman404.github.io/rest-countries-api/"
+    />
+    <ProjectCard
+      fadeUp="default"
+      image="https://raw.githubusercontent.com/pandaman404/ip-address-tracker/master/design/desktop-preview.jpg"
+      index={1}
+      key="1"
+      length={3}
+      name="IP Address Tracker"
+      repo="https://github.com/pandaman404/ip-address-tracker"
+      tags={
+        Array [
+          "React",
+          "Fetch API",
+          " LeafletJS",
+          "Sass",
+        ]
+      }
+      url="https://pandaman404.github.io/ip-address-tracker/"
+    />
+    <ProjectCard
+      fadeUp="default"
+      image="https://raw.githubusercontent.com/pandaman404/todo-app/master/design/desktop-preview.jpg"
+      index={2}
+      key="2"
+      length={3}
+      name="Todo App"
+      repo="https://github.com/pandaman404/todo-app"
+      tags={
+        Array [
+          "JavaScript",
+          "LocalStorage",
+          "Dark Mode",
+          "Sass",
+        ]
+      }
+      url="https://pandaman404.github.io/todo-app/"
+    />
+  </div>
+</styled.div>
+`;
