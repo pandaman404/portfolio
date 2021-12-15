@@ -17,7 +17,7 @@ const MobileNavbar = () => {
 						smooth={true}
 						activeClass='active'
 						spy={true}
-						duration={500}
+						duration={200}
 						onClick={showMobileNav}>
 						{name}
 					</Link>
