@@ -1,34 +1,47 @@
-import React from "react";
-import styled from "styled-components";
-import codeImage from "../assets/code.jpg";
+import React from 'react';
+import styled from 'styled-components';
+import codeImage from '../assets/code.jpg';
 import {
   FaHtml5,
   FaCss3,
+  FaBootstrap,
   FaSass,
   FaReact,
   FaAngular,
-  FaDocker,
-} from "react-icons/fa";
-import { GrNode } from "react-icons/gr";
-import { SiJavascript, SiMongodb } from "react-icons/si";
-import { BiGitBranch } from "react-icons/bi";
+  FaJava,
+  FaWordpress,
+} from 'react-icons/fa';
+import { GrNode } from 'react-icons/gr';
+import {
+  SiJavascript,
+  SiTypescript,
+  SiTailwindcss,
+  SiPostgresql,
+  SiSpringboot,
+} from 'react-icons/si';
+import { BiGitBranch } from 'react-icons/bi';
 
 const Stack = () => {
   return (
-    <Wrapper id="stack">
-      <div className="container">
+    <Wrapper id='stack'>
+      <div className='container'>
         <h2>Stack</h2>
-        <div className="stack-icons" data-aos="fade-up" data-aos-delay="200">
-          <FaHtml5 title="Html5" />
-          <FaCss3 title="Css3" />
-          <FaSass title="Sass" />
-          <SiJavascript title="JavaScript" />
-          <GrNode title="Node.js" />
-          <FaReact title="React" />
-          <FaAngular title="React" />
-          <SiMongodb title="MongoDB" />
-          <BiGitBranch title="Git" />
-          <FaDocker title="Docker" />
+        <div className='stack-icons' data-aos='fade-up' data-aos-delay='200'>
+          <FaHtml5 title='Html5' />
+          <FaCss3 title='Css3' />
+          <FaBootstrap title='Bootstrap' />
+          <FaSass title='Sass' />
+          <SiTailwindcss title='TailwindCSS' />
+          <SiJavascript title='JavaScript' />
+          <SiTypescript title='TypeScript' />
+          <GrNode title='Node.js' />
+          <FaReact title='React' />
+          <FaAngular title='Angular' />
+          <FaJava title='Java' />
+          <SiSpringboot title='Spring Boot' />
+          <BiGitBranch title='Git' />
+          <SiPostgresql title='Postgresql' />
+          <FaWordpress title='WordPress' />
         </div>
       </div>
     </Wrapper>
@@ -59,7 +72,7 @@ const Wrapper = styled.section`
   }
 
   ::after {
-    content: "";
+    content: '';
     z-index: 0;
     position: absolute;
     height: 100%;
