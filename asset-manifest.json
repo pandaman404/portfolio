@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c659a214.chunk.css",
-    "main.js": "/portfolio/static/js/main.381c9f8e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.381c9f8e.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.e38067ca.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e38067ca.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.ce392050.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.ce392050.js.map",
     "static/css/2.e6747c62.chunk.css": "/portfolio/static/css/2.e6747c62.chunk.css",
@@ -16,7 +16,7 @@
     "static/media/coder2.92b132eb.svg": "/portfolio/static/media/coder2.92b132eb.svg",
     "static/media/dentist.30fab512.jpg": "/portfolio/static/media/dentist.30fab512.jpg",
     "static/media/office.037bc273.jpg": "/portfolio/static/media/office.037bc273.jpg",
-    "static/media/rodrigo_valenzuela_cv.3f7eaa04.pdf": "/portfolio/static/media/rodrigo_valenzuela_cv.3f7eaa04.pdf",
+    "static/media/rodrigo_valenzuela_cv.da202581.pdf": "/portfolio/static/media/rodrigo_valenzuela_cv.da202581.pdf",
     "static/media/truck.146ac8f2.jpg": "/portfolio/static/media/truck.146ac8f2.jpg"
   },
   "entrypoints": [
@@ -24,6 +24,6 @@
     "static/css/2.e6747c62.chunk.css",
     "static/js/2.e58afd4f.chunk.js",
     "static/css/main.c659a214.chunk.css",
-    "static/js/main.381c9f8e.chunk.js"
+    "static/js/main.e38067ca.chunk.js"
   ]
 }
